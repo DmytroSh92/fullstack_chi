@@ -78,3 +78,17 @@ function setOperator(op) {
     isActiveNumber1 = false;
     isActiveNumber2 = false;
 }
+
+document.getElementById('set_in_cache').addEventListener('click', function () {
+    const firstNumber = document.getElementById('number1');
+    const secondNumber = document.getElementById('number2');
+    const operator = document.getElementById('operator');
+
+    localStorage.setItem(firstNumber.id, firstNumber.value);
+    localStorage.setItem(secondNumber.id, secondNumber.value);
+    localStorage.setItem(operator.id, operator.value);
+});
+
+document.getElementById('get_from_cache').addEventListener('click', function () {
+    console.log(`${localStorage.getItem('number1')} ${localStorage.getItem('operator')} ${localStorage.getItem('number2')}`);
+});
