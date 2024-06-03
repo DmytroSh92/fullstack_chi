@@ -84,11 +84,19 @@ document.getElementById('set_in_cache').addEventListener('click', function () {
     const secondNumber = document.getElementById('number2');
     const operator = document.getElementById('operator');
 
-    localStorage.setItem(firstNumber.id, firstNumber.value);
-    localStorage.setItem(secondNumber.id, secondNumber.value);
-    localStorage.setItem(operator.id, operator.value);
+    const calc = {
+        "number1" : Number(firstNumber.value),
+        "number2" : Number(secondNumber.value),
+        "operator" : operator.value
+    };
+
+    localStorage.setItem("calc", JSON.stringify(calc));
 });
 
+
 document.getElementById('get_from_cache').addEventListener('click', function () {
-    console.log(`${localStorage.getItem('number1')} ${localStorage.getItem('operator')} ${localStorage.getItem('number2')}`);
+    const calc = JSON.parse(localStorage.getItem("calc"));
+    for(const key in calc) {
+        console.log(`${key} : ${calc[key]}`);
+    }
 });
