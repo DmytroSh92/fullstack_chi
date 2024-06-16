@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container div {
+    box-sizing: border-box;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav__list li:hover {
+    font-weight: bold;
+    a {
+        color: chocolate;
+    }
+}
+
+.nav__list li:nth-child(3) a{
+    font-weight: bold;
+    color: chocolate;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h1::before{
+    content: "TOP ";
+    color: chocolate;
+}
+
+h2::before {
+    content: 'TOP ';
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.main__list-block:first-child h2:after {
+    content: ' Favorite';
+    color: red;
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main div > div{
+    flex: 1 1 30%;
+}
+
+.main__block img {
+    max-width: 100%;
+    height: auto;
+}
+
+main section div .main__list-block:nth-child(2) {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.main__list-block {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 25px 25px 0;
+}
+.reserved  {
+    text-align: center;
+}
+
+footer ul li:last-child {
+    text-decoration: underline;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
