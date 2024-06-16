@@ -1,0 +1,30 @@
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 18px;
+}
+.button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 18px;
+}
+.keyboard button {
+    width: 22%;
+    padding: 10px;
+    margin: 5px 1%;
+    font-size: 18px;
+}
+
+.keyboard .keyboard__zero {
+    width: 72%;
+    padding: 10px;
+    margin: 5px 1%;
+    font-size: 18px;
+}
