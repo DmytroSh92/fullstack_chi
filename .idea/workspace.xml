@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="edf3c907-3376-4bfd-80ed-a3b0ae42d3e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_4/interface.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw_4/interface.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_6/book-list/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hw_6/book-list/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_6/book-list/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hw_6/book-list/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_6/book-list/src/components/BookDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw_6/book-list/src/components/BookDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_6/book-list/src/components/BookList.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw_6/book-list/src/components/BookList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -69,36 +72,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Debug",
-    "Node.js.aliasesLiteralTypes.js.executor": "Run",
-    "Node.js.calculator.js.executor": "Debug",
-    "Node.js.interface.js.executor": "Run",
-    "Node.js.tcs.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "settings.typescriptcompiler",
-    "ts.external.directory.path": "D:\\course\\fullstack_chi\\hw_5\\todo-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.aliasesLiteralTypes.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.calculator.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.interface.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.tcs.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/course/fullstack_chi/hw_6/book-list/src/components&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\course\\fullstack_chi\\hw_5\\todo-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "HTML"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTML&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\course\fullstack_chi\hw_6\book-list\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\course\fullstack_chi\hw_6\book-list\src\components" />
       <recent name="D:\course\fullstack_chi\hw_2" />
       <recent name="D:\course\fullstack_chi\images" />
     </key>
@@ -138,7 +146,17 @@
       <workItem from="1717438209951" duration="1660000" />
       <workItem from="1718628117081" duration="1286000" />
       <workItem from="1718891469843" duration="26000" />
-      <workItem from="1719121758218" duration="2501000" />
+      <workItem from="1719121758218" duration="3784000" />
+      <workItem from="1719296791472" duration="85000" />
+      <workItem from="1719309865799" duration="1107000" />
+      <workItem from="1719637245733" duration="641000" />
+      <workItem from="1719688762288" duration="698000" />
+      <workItem from="1719731854517" duration="59000" />
+      <workItem from="1719853099450" duration="57000" />
+      <workItem from="1720874842828" duration="1970000" />
+      <workItem from="1720940995777" duration="2028000" />
+      <workItem from="1721449269219" duration="60000" />
+      <workItem from="1721507415443" duration="1082000" />
     </task>
     <servers />
   </component>
